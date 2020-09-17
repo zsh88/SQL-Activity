@@ -7,7 +7,7 @@ FROM Customers;
 /* Activity 4.02: Extracting the Top Five Highest Paid Items */
 
 SELECT 
-	Products.ProductName AS 'Product Name',
+    Products.ProductName AS 'Product Name',
     Products.NetRetailPrice AS 'Product Retail Price',
     Products.AvailableQuantity AS 'Available Quantity',
     Products.AvailableQuantity * Products.NetRetailPrice AS 'Total Price of Available QTY'
